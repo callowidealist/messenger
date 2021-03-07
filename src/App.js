@@ -14,7 +14,8 @@ function App() {
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState([]);
   const [username, setUsername] = useState('');
-
+    
+  // limiting the length of username
   const name = () => {
       let enterName = '';
       while (!enterName || enterName.length > 16) {
@@ -26,7 +27,7 @@ function App() {
   useEffect(() => {
       setUsername(name)
   }, [])
-
+  // adds user with new message
   useEffect(() => {
       db.collection('messages')
           .orderBy('timestamp', 'desc')
@@ -40,7 +41,7 @@ function App() {
   }
 
   const sendMessage = (e) => {
-      e.preventDefault();
+      e.preventDefault(); // helps in reloading of script automatically
 
       db.collection('messages').add({
           message: input,
