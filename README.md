@@ -6,7 +6,7 @@ Tech Stack : React + React Hook + material-ui + firebase
 ## Usage
 
 ```
-$ git clone https://github.com/callowidealist/Messenger.git
+$ git clone https://github.com/callowidealist/messenger.git
 $ cd React-Messenger-master
 $ npm install
 $ npm start
