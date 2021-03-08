@@ -7,7 +7,7 @@ Tech Stack : React + React Hook + material-ui + firebase
 
 ```
 $ git clone https://github.com/callowidealist/messenger.git
-$ cd React-Messenger-master
+$ cd messenger-master
 $ npm install
 $ npm start
 ```
