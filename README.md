@@ -1,6 +1,19 @@
 ## React Based Messenger Application 
 
-Tech Stack : React + React Hook + material-ui + firebase 
+![](https://img.shields.io/github/languages/count/callowidealist/messenger?color=%230078FF) ![](https://img.shields.io/github/languages/top/callowidealist/messenger?color=%230078FF) ![](https://img.shields.io/github/repo-size/callowidealist/messenger?color=%230078FF) ![](https://img.shields.io/github/last-commit/callowidealist/messenger?color=%230078FF)
+
+<details>
+  <summary>Tech Stack </summary>
+
+-   [React](https://pt-br.reactjs.org/)
+-   [Styled Components](https://styled-components.com/)
+-   [Material-UI/core](https://material-ui.com/pt/)
+-   [Material-UI/icons](https://material-ui.com/pt/components/material-icons/#material-icons)
+- [React Flip Move](https://github.com/joshwcomeau/react-flip-move)
+- [Firebase](https://firebase.google.com/)
+-   [VS Code](https://code.visualstudio.com/)
+
+</details>
 
 
 ## Usage
