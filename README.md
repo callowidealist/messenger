@@ -27,7 +27,7 @@ $ npm start
 
 ## API key
 
-1. Get your Firebase credentials @https://firebase.google.com/
+1. Get your Firebase credentials [Firebase](https://firebase.google.com/)
 2. Copy / paste your Firebase config to *Firebase.js* file :
 ```
 const firebaseApp = firebase.initializeApp({
