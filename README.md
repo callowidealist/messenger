@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+## React Based Messenger Application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tech Stack : React + React Hook + material-ui + firebase 
+
+
+## Usage
+
+```
+$ git clone https://github.com/callowidealist/Messenger.git
+$ cd React-Messenger-master
+$ npm install
+$ npm start
+```
+
+## API key
+
+1. Get your Firebase credentials @https://firebase.google.com/
+2. Copy / paste your Firebase config to *Firebase.js* file :
+```
+const firebaseApp = firebase.initializeApp({
+  apiKey: "YOUR_API_KEY",
+  AuthDomain: "YOUR_PROJECT_AUTH_DOMAIN",
+  databaseURL: "YOUR_PROJECT_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_PROJECT_MESSAGING_SENDER_ID",
+  appId: "YOUR_PROJECT_APP_ID"
+});
+```
 
 ## Available Scripts
 
